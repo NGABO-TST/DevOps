@@ -76,7 +76,7 @@ padding:20px;
 <h1>Welcome to My Express Server 🚀</h1>
 <p>This is an amazing interface built with Express</p>
 
-<button onclick="alert('Welcome Developer!')">
+<button onclick="alert('Welcome Developer')">
 Click Me
 </button>
 </div>
