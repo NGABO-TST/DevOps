@@ -1,16 +1,7 @@
 try {
-
-const express = require("express");
-
-if(!express){
-throw new Error("Express not installed");
-}
-
-console.log("Test Passed: Express is installed");
-
-}catch(error){
-
-console.error("Test Failed:", error.message);
-process.exit(1);
-
+  const server = require("./server"); // require your server file
+  console.log("Server file loaded successfully");
+} catch (err) {
+  console.error("Server failed to load:", err.message);
+  process.exit(1);
 }
